@@ -725,9 +725,9 @@
      -ms-flex-align: center;
      align-items: center;
      background-color: #f4f4f4;
-     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(33%, rgba(0, 0, 0, 0.8)), to(rgba(10, 41, 49, 0.65))), url("https://uploads-ssl.webflow.com/5e00c752323c6a2d6de396de/5f204c1adcb4fe1b2ea82152_launchpad_img_1.jpg");
-     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 33%, rgba(10, 41, 49, 0.65)), url("https://uploads-ssl.webflow.com/5e00c752323c6a2d6de396de/5f204c1adcb4fe1b2ea82152_launchpad_img_1.jpg");
-     background-position: 0px 0px, 50% 50%;
+     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(33%, rgba(0, 0, 0, 0.8)), to(rgba(10, 41, 49, 0.65))), url("./images/hero.jpg");
+     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 33%, rgba(10, 41, 49, 0.65)), url("./images/hero.jpg");
+     background-position: top left;
      background-size: auto, cover;
      opacity: 1;
      color: #fff;
@@ -2764,7 +2764,7 @@
    .bold-text-2 {
      display: inline-block;
      font-family: Inter, sans-serif;
-     color: hsla(0, 0%, 100%, 0.7);
+     color: #fff;
      font-weight: 400;
    }
    
@@ -3217,7 +3217,6 @@
      .paragraph-bigger.landing-text {
        padding-right: 64px;
        padding-left: 64px;
-       opacity: 0.6;
        font-size: 16px;
      }
      .paragraph-bigger.landing-text.blue {
@@ -4531,8 +4530,8 @@
        max-width: none;
      }
      .title {
-       font-size: 26px;
-       line-height: 36px;
+       font-size: 20px;
+       line-height: normal;
        text-align: center;
      }
      .heading-jumbo-small {
@@ -4575,10 +4574,11 @@
        padding-right: 24px;
        padding-bottom: 0px;
        padding-left: 24px;
+       background-position: top center;
      }
      .main-headr.cc-homepage {
        width: 100%;
-       margin-top: 100px;
+       margin-top: 50px;
        margin-bottom: 0px;
        padding-right: 0px;
        padding-left: 0px;
@@ -4682,7 +4682,7 @@
        padding: 63px 24px 90px;
      }
      .location-inf {
-       margin-top: 110px;
+       margin-top: 50px;
        margin-bottom: 0px;
        padding-bottom: 30px;
        padding-left: 0px;
