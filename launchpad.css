@@ -4374,42 +4374,42 @@
        text-align: center;
      }
      .slide {
-       background-image: url("https://uploads-ssl.webflow.com/5e00c752323c6a2d6de396de/5f2173fd3ec972842adad1a1_Room1_img.jpg");
+       background-image: url("images/white_1_sm.jpg");
        background-position: 50% 50%;
        background-size: cover;
      }
      .slide-2 {
-       background-image: url("https://uploads-ssl.webflow.com/5e00c752323c6a2d6de396de/5f2174d2d3e5180c449821ba_Room1_img3.jpg");
+       background-image: url("images/white_2_sm.jpg");
        background-position: 50% 50%;
        background-size: cover;
      }
      .slide-3 {
-       background-image: url("https://uploads-ssl.webflow.com/5e00c752323c6a2d6de396de/5f2174d23ec972534cdad561_Room1_img4.jpg");
+       background-image: url("images/white_3_sm.jpg");
        background-position: 50% 50%;
        background-size: cover;
      }
      .slide-4 {
-       background-image: url("https://uploads-ssl.webflow.com/5e00c752323c6a2d6de396de/5f2174d2c30ed3c1c1a68018_Room1_img2.jpg");
+       background-image: url("images/white_4_sm.jpg");
        background-position: 50% 50%;
        background-size: cover;
      }
      .slide-5 {
-       background-image: url("https://uploads-ssl.webflow.com/5e00c752323c6a2d6de396de/5f21776c55df5a996aa3480d_Room2_img.jpg");
+       background-image: url("images/white_5_sm.jpg");
        background-position: 50% 50%;
        background-size: cover;
      }
      .slide-6 {
-       background-image: url("https://uploads-ssl.webflow.com/5e00c752323c6a2d6de396de/5f2294e1f4f1e86645cb11ad__MG_9746.jpg");
+       background-image: url("images/shared_1_sm.jpg");
        background-position: 50% 50%;
        background-size: cover;
      }
      .slide-7 {
-       background-image: url("https://uploads-ssl.webflow.com/5e00c752323c6a2d6de396de/5f2294e207bc7f873668f647__MG_9755.jpg");
+       background-image: url("images/shared_2_sm.jpg");
        background-position: 50% 50%;
        background-size: cover;
      }
      .slide-8 {
-       background-image: url("https://uploads-ssl.webflow.com/5e00c752323c6a2d6de396de/5f217a78cb65fc7058e991b2_Room3_img.jpg");
+       background-image: url("images/shared_3_sm.jpg");
        background-position: 50% 50%;
        background-size: cover;
      }
@@ -4422,6 +4422,21 @@
        background-image: url("https://uploads-ssl.webflow.com/5e00c752323c6a2d6de396de/5f217a7a925bf3cc057c3a7c_Room3_img2.jpg");
        background-position: 50% 50%;
        background-size: cover;
+     }
+     .room-9 {
+      background-image: url("images/launchpadslide31.jpeg");
+     }
+     .room-10 {
+      background-image: url("images/launchpadslide32.jpeg");
+     }
+     .room-11 {
+      background-image: url("images/launchpadslide33.jpeg");
+     }
+     .room-9,
+     .room-10,
+     .room-11 {
+        background-position: 50% 50%;
+        background-size: cover;
      }
      .image-8 {
        display: block;
