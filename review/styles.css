@@ -2096,10 +2096,13 @@ body {
   display: flex;
 }
 
+img {
+  display: inline-block;
+}
+
 .review {
   height: 100%;
   border-bottom: 1px #e4ebf3;
-  padding: 10px 30px;
   position: relative;
 }
 
@@ -2113,21 +2116,21 @@ body {
 .centered-heading {
   text-align: center;
   margin-bottom: 16px;
+  font-size: 36px;
 }
 
 .description {
-  max-width: 550px;
+  max-width: 600px;
   text-align: center;
-  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
   font-family: Montserrat, sans-serif;
-  font-size: 22px;
+  font-size: 19px;
 }
 
 .service-grid {
-  max-width: 600px;
-  grid-column-gap: 124px;
+  max-width: 400px;
+  grid-column-gap: 29px;
   grid-row-gap: 50px;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
@@ -2137,7 +2140,7 @@ body {
   justify-content: center;
   align-items: stretch;
   justify-items: center;
-  margin: 50px auto;
+  margin: 60px auto 50px;
   display: grid;
   position: static;
 }
@@ -2152,10 +2155,7 @@ body {
 }
 
 .service-picture {
-  width: 80px;
-  height: 80px;
   object-fit: cover;
-  margin-bottom: 8px;
 }
 
 .pricing-card-text {
@@ -2384,6 +2384,43 @@ body {
   margin-left: 12px;
 }
 
+.div-block {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.image {
+  width: 173px;
+  display: block;
+}
+
+.div-block-2 {
+  background-color: #091323;
+}
+
+.link {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+}
+
+.link.bluelink {
+  color: #05bae9;
+  text-shadow: none;
+  font-style: normal;
+}
+
+.logo {
+  display: inline-block;
+}
+
+@media screen and (min-width: 1280px) {
+  .div-block {
+    width: 1024px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
@@ -2422,11 +2459,15 @@ body {
   .footer-form-container {
     max-width: 350px;
   }
+
+  .div-block {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .review {
-    padding: 40px 15px 60px;
+    padding-bottom: 60px;
   }
 
   .container {
@@ -2490,7 +2531,7 @@ body {
   }
 
   .review {
-    padding-top: 40px;
+    padding-top: 0;
     padding-bottom: 20px;
   }
 
@@ -2498,18 +2539,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 110px;
-    font-size: 16px;
-    display: block;
+    margin-top: 80px;
   }
 
   .centered-heading {
-    margin-bottom: 10px;
+    font-size: 30px;
   }
 
   .description {
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .service-grid {
@@ -2581,6 +2620,11 @@ body {
 
   .footer-social-block-two {
     margin-top: 20px;
+  }
+
+  .div-block {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
