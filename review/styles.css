@@ -2108,14 +2108,14 @@ img {
 
 .container {
   width: 100%;
-  margin: 80px auto 20px;
+  margin: 150px auto 20px;
   padding-top: 0;
   font-family: Montserrat, sans-serif;
 }
 
 .centered-heading {
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 30px;
   font-size: 36px;
 }
 
@@ -2472,6 +2472,8 @@ img {
 
   .container {
     margin-bottom: 0;
+    padding-left: 24px;
+    padding-right: 24px;
     font-size: 20px;
   }
 
@@ -2539,11 +2541,13 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 140px;
+    display: flex;
   }
 
   .centered-heading {
-    font-size: 30px;
+    margin-bottom: 15px;
+    font-size: 27px;
   }
 
   .description {
@@ -2625,6 +2629,17 @@ img {
   .div-block {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  .image {
+    width: 118px;
+    height: 28px;
+  }
+
+  .logo {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
   }
 }
 
